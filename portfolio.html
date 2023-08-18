@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-12 " id="sectionhome">
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                        <a class="navbar-brand" href="#">
+                            <p class="pt-2">Vasundhra Jain</p>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-link active" href="#sectionhome">
+                                    Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                                <a class="nav-link" href="#sectionabout">About</a>
+                                <a class="nav-link" href="#sectionproject">Projects</a>
+                                <a class="nav-link" href="#sectioncontact">Contact me</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="intro-background mt-5 p-3">
+                        <div class="col-12 intro-container d-lg-flex flex-row">
+                            <img src="https://res.cloudinary.com/dz6uvquma/image/upload/v1692369023/girl_port-removebg-preview_1_pogvv3.png" class="intro-image col-12 col-lg-7" />
+                            <div class="intro-detail col-12 col-lg-5">
+                                <h1 class="intro-detail-heading">Frontend Developer</h1>
+                                <p class="intro-detail-paragraph">Hi, I'm <span class="intro-name">Vasundhra Jain</span>.<br /> A passionate Front-end Developer based in Uttar Pradesh,India.</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block">
+                            <div class="col-12 p-5 skill-container d-flex flex-row justify-content-center mb-5 mt-5">
+                                <div class="col-3 skill-background shadow ">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skills-image" />
+                                    <h1 class=skills-heading>HTML</h1>
+                                </div>
+                                <div class="col-3 skill-background shadow">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skills-image" />
+                                    <h1 class=skills-heading>CSS</h1>
+                                </div>
+                                <div class="col-3 skill-background shadow">
+                                    <img src="data:image/jpeg;base64,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" class="skills-image" />
+                                    <h1 class=skills-heading>Python</h1>
+                                </div>
+                                <div class="col-3 skill-background shadow">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="skills-image" />
+                                    <h1 class=skills-heading>JS</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 about-background p-5" id="sectionabout">
+                <h1 class="about-main-heading">About Me</h1>
+                <div class="d-lg-flex flex-row justify-content-center">
+                    <div class="col-12 col-lg-4 about-container">
+                        <h1 class="about-heading">Education</h1>
+                        <ul class="about-list">
+                            <li>
+                                <h1 class="about-content-heading">Bachelor's Degree in Computer Applications [2021-2024]</h1>
+                                <p>[Maa Shakumbhari University]</p>
+                            </li>
+                            <li>
+                                <h1 class="about-content-heading">Full Stack Development[2022-2026]</h1>
+                                <p>[Nxtwave CCBP 4.0 Academy]</p>
+                            </li>
+                            <li>
+                                <h1 class="about-content-heading">Intermediate School [2020-2021]</h1>
+                                <p>[S.D Public School, U.P]</p>
+                                <p>~89.2%</p>
+                            </li>
+                            <li>
+                                <h1 class="about-content-heading">High School [2018-2019]</h1>
+                                <p>[S.D Public School, U.P]</p>
+                                <p>~89.4%</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 about-container">
+                        <h1 class="about-heading">Certifications</h1>
+                        <ul class="about-list">
+                            <li>Build Your Own Static Website<br />
+                                <a class="about-anchor" href="https://certificates.ccbp.in/academy/static-website?id=IOASHSTLCO" target="_blank">View certificate</a>
+                            </li>
+                            <li>Build Your Own Responsive Website<br />
+                                <a class="about-anchor" href="https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=GQICPYFHJG" target="_blank">View certificate</a>
+                            </li>
+                            <li>Programming foundations with python<br />
+                                <a class="about-anchor" href="https://certificates.ccbp.in/academy/programming-foundations-with-python?id=NNZKJWKCYY" target="_blank">View certificate</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 about-container">
+                        <h1 class="about-heading">Achievements</h1>
+                        <ul class="about-list">
+                            <li>Python Code Rush<br />
+                                <a class="about-anchor" href="http://cdn1.ccbp.in/misc/Fly-High-Challenge/KNSH2QI4FA.png" target="_blank">View certificate</a>
+                            </li>
+                            <li>Generative AI Project<br />
+                                <a class="about-anchor" href="https://cdn1.ccbp.in/misc/gen-ai-completion-cer/3B1U3ZEHUL.png" target="_blank">View certificate</a>
+                                <p>Project Link:-<br />
+                                    <a class="about-anchor" href="https://vasundhragenai.ccbp.tech" target="_blank">View Project</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 projects-background p-5" id="sectionproject">
+                <h1 class="project-heading">Projects</h1>
+                <div class="d-lg-flex flex-row justify-content-center">
+                    <div class="col-12 col-lg-4 project-card text-white">
+                        <img src="https://img.freepik.com/free-vector/list-concept-illustration_114360-2498.jpg?w=740&t=st=1692112094~exp=1692112694~hmac=0617c6dd05b4954cdee007874eafecaac88c6c940e0ace91a03825a6d1e976f1" class="project-image" />
+                        <h1 class="ml-2 project-detail-heading">Todolist</h1>
+                        <a href="https://vasutodo.ccbp.tech/" target="_blank" class="ml-2 project-view">View
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                    <div class="col-12 col-lg-4 project-card text-white">
+                        <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-metaverse-illustration_52683-80296.jpg?w=740&t=st=1692111380~exp=1692111980~hmac=85319394a647ba5abb4d4e5ab8571ab99415c5d1b8d99a4d2f4d1e1fe3c597a4" class="project-image" />
+                        <h1 class="ml-2 project-detail-heading">Virtual Reality Website</h1>
+                        <a href="https://vasuvr.ccbp.tech/" target="_blank" class="ml-2 project-view">View
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                    <div class="col-12 col-lg-4 project-card text-white">
+                        <img src="https://img.freepik.com/free-vector/online-shopping-concept-landing-page_52683-22153.jpg?w=740&t=st=1692111572~exp=1692112172~hmac=fcaa4dcecaf048dafbb4fd5cad01a9f85bd645bb7698cffc9e118fd692bb2abd" class="project-image" />
+                        <h1 class="ml-2 project-detail-heading">E-commerce Website</h1>
+                        <a href="https://vasucommerce.ccbp.tech/" target="_blank" class="ml-2 project-view">View
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="d-lg-flex flex-row justify-content-center">
+                    <div class="col-12 col-lg-4 project-card text-white">
+                        <img src="https://img.freepik.com/premium-vector/flat-knowledge-concept-illustration-with-man-book_23-2149015204.jpg?w=740" class="project-image" />
+                        <h1 class="ml-2 project-detail-heading">Wikipedia Search Application</h1>
+                        <a href="https://wikisearchvasu.ccbp.tech/" target="_blank" class="ml-2 project-view">View
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                    <div class="col-12 col-lg-4 project-card text-white">
+                        <img src="https://img.freepik.com/free-vector/calculator-concept-illustration_114360-1239.jpg?w=740&t=st=1692111974~exp=1692112574~hmac=e26ee92a07f89ad8a6d7911f689359098965c5feb9847e385bd2565218c64c20" class="project-image" />
+                        <h1 class="ml-2 project-detail-heading">Calculator</h1>
+                        <a href="https://calculatorvasu.ccbp.tech/" target="_blank" class="ml-2 project-view">View
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                    <div class="col-12 col-lg-4 project-card text-white">
+                        <img src="https://img.freepik.com/free-photo/high-angle-floral-bookmark-book_23-2149894344.jpg?w=740&t=st=1692112049~exp=1692112649~hmac=314e070526222d86d40d3c957e50295c1b610d609bca21780dc76bd5c00a9e43" class="project-image" />
+                        <h1 class="ml-2 project-detail-heading">Bookmark Maker</h1>
+                        <a href="https://vasubookmark.ccbp.tech/" target="_blank" class="ml-2 project-view">View
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 contactme-background" id="sectioncontact">
+                <div class="d-flex flex-row">
+                    <div class="col-6">
+                        <div class="pt-3 d-flex flex-row ">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="footer-image mr-3" />
+                            <div>
+                                <h1 class="footer-heading">Vasundhra</h1>
+                                <p class="footer-paragraph">Frontend Developer</p>
+                            </div>
+                        </div>
+                        <div class="p-3 ">
+                            <h1 class="footer-heading">Phone No.</h1>
+                            <p class="footer-paragraph">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill mr-2" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                                7906907066
+                            </p>
+                        </div>
+                        <div class="p-3">
+                            <h1 class="footer-heading">E-mail</h1>
+                            <p class="footer-paragraph">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill mr-2" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg>
+                                jainvasundhra2108@gmail.com
+                            </p>
+                        </div>
+                        <div class="p-3">
+                            <h1 class="footer-heading">Address</h1>
+                            <p class="footer-paragraph">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 384 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <style>
+                                        svg {
+                                            fill: #e8eaee
+                                        }
+                                    </style>
+                                    <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                </svg>
+                                604, Sanjay Marg, Patel Nagar, New Mandi, Muzaffarnagar, India.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h1 class="footer-heading-2">Connect With Me:-</h1>
+                        <div class="p-3">
+                            <a href="https://www.linkedin.com/in/vasundhra-jain" target="_blank" class="footer-heading">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <style>
+                                        svg {
+                                            fill: #eef1f6
+                                        }
+                                    </style>
+                                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                </svg>
+                                LinkedIn</a>
+                        </div>
+                        <div class="p-3">
+                            <a href="https://twitter.com/vasundhra2108?t=IdjFQ2-0a35u_VKxNm-xXA&s=09" target="_blank" class="footer-heading">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <style>
+                                        svg {
+                                            fill: #eceef3
+                                        }
+                                    </style>
+                                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                </svg>
+                                Twitter
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a href="https://instagram.com/vasundhra_2108?utm_source=qr&igshid=MzNINGNkZWQ4Mg%3D%3D" target="_blank" class="footer-heading">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <style>
+                                        svg {
+                                            fill: #ecf1f9
+                                        }
+                                    </style>
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
